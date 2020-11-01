@@ -1,4 +1,4 @@
 ## Installing Xorg on Fedora
 ### Tasks 
-- [] Install Fedora
-- [] Second step 
+- [ ] Install Fedora
+- [ ] Second step 
