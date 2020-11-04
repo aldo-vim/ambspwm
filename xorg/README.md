@@ -19,7 +19,8 @@
    - bspwm-0.9.9-1.fc32.x86_64    
 
 2.  Configure Xorg using the default configuration file
-   - xorg.conf location:  `/etc/X11/xorg.conf`  
+   - xorg.conf location:  
+      - `/etc/X11/xorg.conf`  
 
 
 3.  The _xorgfedora_ image is use by the bspwmfedora image for configuration
