@@ -1,4 +1,7 @@
 ## Installing Xorg on Fedora
-### Tasks 
-- [ ] Install Fedora
-- [ ] Second step 
+
+### Build the xorgfedora image
+``` docker build -t xorgfedora . ```
+
+#### This image contains Xorg and bspwm pakaged. 
+
