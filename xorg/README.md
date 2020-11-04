@@ -23,5 +23,5 @@
          - `/etc/X11/xorg.conf`  
 
 
-3.  The _xorgfedora_ image is use by the bspwmfedora image for configuration
+3.  The _xorgfedora_ docker image is use by the [bspwmfedora docker image](../bspwm/README.md) for configuration
 
