@@ -16,3 +16,7 @@ RUN \
    # Installing the Display manager: bspwm
    bspwm
 
+# Configuring Xorg
+RUN \
+   X -configure && \
+   cp /root/xorg.conf.new /etc/X11/xorg.conf
