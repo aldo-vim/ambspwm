@@ -32,7 +32,7 @@
 - Definition
 
 - FILES
-   - $(HOME)/.xinitrc 
+   - $(HOME)/.xinitrc  
       - Client to run. Typically a shell script which runs many programs in the background.
 
    - $(HOME)/.xserverrc
