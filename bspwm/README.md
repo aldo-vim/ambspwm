@@ -33,15 +33,15 @@
 
 - FILES
    - $(HOME)/.xinitrc  
-      - Client to run. Typically a shell script which runs many programs in the background.
+      - Client to run. e.g. bspwm
 
-   - $(HOME)/.xserverrc
+   - $(HOME)/.xserverrc  
       -Server to run. The default is X.
 
-   - /etc/X11/xinit/xinitrc
-      -Client to run if the user has no .xinitrc file.
+   - /etc/X11/xinit/xinitrc  
+      -Client to run if the user has no .xinitrc file. 
 
    - /usr/lib/X11/xinit/xserverrc
-      -Server to run if the user has no .xserverrc file.k
+      -Server to run if the user has no .xserverrc file  
 
 - [XINIT Documentaion](https://www.x.org/releases/X11R7.6/doc/man/man1/xinit.1.xhtml)
