@@ -18,5 +18,8 @@ RUN \
 
 # Configuring Xorg
 RUN \
+   # Set vi as the default editor
+   echo "set -o vi" >> /root/.bashrc && \
+   # Configure X
    X -configure && \
    cp /root/xorg.conf.new /etc/X11/xorg.conf
