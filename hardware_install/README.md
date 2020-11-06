@@ -9,6 +9,7 @@ cd aldovim_dev_env/hardware_install/
 
 
 ### TODO
-- [ ] Test it in a docker image 
+- [x] Test it in a docker image 
+- [ ] Test it on Thinkpad x1 Carbon
 - [ ] Use github action for CICD
 
