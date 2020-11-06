@@ -19,12 +19,19 @@ RUN \
    # Installing the Display manager: bspwm
    bspwm \
    # Installing the keyboard mapping daemon
-   sxhkd
+   sxhkd \
+   # Installing urxvt
+   rxvt-unicode
+
+
 
 # Configuring Xorg
 RUN \
    # Set vi as the default editor
    echo "set -o vi" >> /root/.bashrc && \
    # Configure X
+   ###
+   # The next section might not be needed
+   ###
    X -configure && \
    cp /root/xorg.conf.new /etc/X11/xorg.conf
