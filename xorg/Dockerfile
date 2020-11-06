@@ -1,4 +1,7 @@
 FROM fedora:32
+###
+# Building the Xorg image
+###
 
 # Updating and installing xorg && bspwm
 RUN \
@@ -14,7 +17,9 @@ RUN \
    xorg-x11-font-utils \
    xorg-x11-fonts-100dpi \
    # Installing the Display manager: bspwm
-   bspwm
+   bspwm \
+   # Installing the keyboard mapping daemon
+   sxhkd
 
 # Configuring Xorg
 RUN \
