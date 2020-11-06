@@ -15,4 +15,4 @@
 - [ ] Create a predefined `/etc/vconsole.conf` file
 - [ ] Create a script to automatically edit the _vconsole_ file if stty is > 50
 
-### [HowTop](https://ask.fedoraproject.org/t/hwo-to-increase-the-size-of-tty-font/2604/2)
+### [How-to](https://ask.fedoraproject.org/t/hwo-to-increase-the-size-of-tty-font/2604/2)
