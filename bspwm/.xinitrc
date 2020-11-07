@@ -17,6 +17,6 @@
 
 # Configure sxhkd, urvxt and bspwm
 sxhkd &
-urvxt &
+urxvt &
 exec bspwm
 
