@@ -22,7 +22,7 @@
    rxvt-unicode
 
 
-### Configure bspwm
+### Configure bspwm dot files
   mkdir -p  $HOME/.config/{bspwm,sxhkd} 
 
 # Copy bspwmrc
@@ -32,4 +32,4 @@ cp  ../bspwm/bspwmrc /root/.config/bspwm/
 cp ../bspwm/sxhkdrc /root/.config/sxhkd/ 
 
 ## Copy .xinirc
-#cp ../bspwm/xinitrc /root/.xinitrc
+cp ../bspwm/.xinitrc /root/.xinitrc
