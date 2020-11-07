@@ -10,3 +10,6 @@
 ### Configuration configuration files
 
 
+### TODO
+- [ ]  bspwm xresources xft
+
