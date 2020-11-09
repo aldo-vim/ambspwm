@@ -17,13 +17,16 @@
    xorg-x11-xinit  \
    xorg-x11-font-utils \
    xorg-x11-fonts-100dpi \
+   vim \
+   lxappearance \
+   thunar \
+   konsole \
    bspwm \
-   sxhkd \
-   rxvt-unicode
+   sxhkd 
 
 
-### Configure bspwm dot files
-  mkdir -p  $HOME/.config/{bspwm,sxhkd} 
+## Configure bspwm dot files
+mkdir -p  $HOME/.config/{bspwm,sxhkd} 
 
 # Copy bspwmrc
 cp  ../bspwm/bspwmrc /root/.config/bspwm/ 
@@ -33,3 +36,4 @@ cp ../bspwm/sxhkdrc /root/.config/sxhkd/
 
 ## Copy .xinirc
 cp ../bspwm/.xinitrc /root/.xinitrc
+
