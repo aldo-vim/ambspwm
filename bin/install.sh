@@ -18,12 +18,17 @@
    xorg-x11-font-utils \
    xorg-x11-fonts-100dpi \
    vim \
+   git \
    lxappearance \
    thunar \
    konsole \
    bspwm \
    sxhkd 
 
+## Font configuration 
+mkdir -p /usr/share/fonts/Inconsolata/
+git  clone https://github.com/googlefonts/Inconsolata /tmp/Inconsolata
+cp /tmp/Inconsolata/fonts/ttf/* /usr/share/fonts/Inconsolata/
 
 ## Configure bspwm dot files
 mkdir -p  $HOME/.config/{bspwm,sxhkd} 
