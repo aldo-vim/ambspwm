@@ -44,4 +44,5 @@ cp ../bspwm/.xinitrc /root/.xinitrc
 
 ## Konsole Configuration
 cp ../konsole/konsolerc /root/.config/
+mkdir -p /root/.local/share/konsole/
 cp ../konsole/4k.profile /root/.local/share/konsole/
