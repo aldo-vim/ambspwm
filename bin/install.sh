@@ -42,3 +42,6 @@ cp ../bspwm/sxhkdrc /root/.config/sxhkd/
 ## Copy .xinirc
 cp ../bspwm/.xinitrc /root/.xinitrc
 
+## Konsole Configuration
+cp ../konsole/konsolerc /root/.config/
+cp ../konsole/4k.profile /root/.local/share/konsole/
