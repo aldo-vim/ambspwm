@@ -51,6 +51,6 @@ cp ../konsole/4k.profile /root/.local/share/konsole/
 ## Wifi Configuration 
 systemctl enable wpa_supplicant
 systemctl start  wpa_supplicant
-systemctl restart NetworkManger
+systemctl restart NetworkManager
 
 
