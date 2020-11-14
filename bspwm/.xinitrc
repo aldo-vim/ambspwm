@@ -20,3 +20,12 @@ sxhkd &
 konsole &
 exec bspwm
 
+
+#
+## Keyboard configuration: Temporary: use udev instead
+#
+setxkbmap -option caps:escape
+
+
+
+
