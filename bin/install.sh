@@ -23,7 +23,8 @@
    thunar \
    konsole \
    bspwm \
-   sxhkd 
+   sxhkd \
+   wpa_supplicant 
 
 ## Font configuration 
 mkdir -p /usr/share/fonts/Inconsolata/
@@ -45,3 +46,10 @@ cp ../bspwm/.xinitrc /root/.xinitrc
 ## Konsole Configuration
 cp ../konsole/konsolerc /root/.config/
 cp ../konsole/4k.profile /root/.local/share/konsole/
+
+## Wifi Configuration 
+systemctl enable wpa_supplicant
+systemctl start  wpa_supplicant
+systemctl restart NetworkManger
+
+
