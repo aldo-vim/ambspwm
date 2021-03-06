@@ -1,15 +1,20 @@
-# Describing the process of installing and conviguring my development env. 
+## Configure sxhkdrc.
+## This is temporary, the final version should retrieve the sxhhkdrc file directly from this repo
 
-##  Sections: 
+### Build the sxhkdrc image  
 
-
-### Installing Xorg 
-### Configuration files
-
-### Installing bspwm
-### Configuration configuration files
+``` docker build -t sxhkdrc . ```
 
 
-### TODO
-- [ ]  bspwm xresources xft
+### sxhkdrc configuration for my liking
+1. Configure the desktop switching 
+   ```
+   cat <<EOT >> /root/.config/sxhkd/sxhkdrc
 
+## Aldo
+# focus the next/previous desktop in the current monitor
+alt + {i,o}
+bspc desktop -f {prev,next}.local
+   EOT
+
+   ```
