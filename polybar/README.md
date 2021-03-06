@@ -12,6 +12,8 @@
    ```
 
 2. Running polybar
+   The configuration file is located in ~/.config/polybar/config
+   If this file is missing, it won't strart
    ```
-    polybar ~/.config/polybar/polybarrc
+    polybar example
    ```
