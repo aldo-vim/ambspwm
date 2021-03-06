@@ -45,8 +45,7 @@ cp ../bspwm/.xinitrc /root/.xinitrc
 dnf -y install --setopt=tsflags=''  polybar
    # Configuration
 mkdir -p /root/.config/polybar/example
-ll ../polybar/polybarrc 
-cp ../polybar/polybarrc /root/.config/polybar/
+cp ../polybar/config /root/.config/polybar/
 
 ## SXHKD
    # Configuration
