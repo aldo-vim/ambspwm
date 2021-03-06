@@ -36,12 +36,22 @@ mkdir -p  $HOME/.config/{bspwm,sxhkd}
 
 # Copy bspwmrc
 cp  ../bspwm/bspwmrc /root/.config/bspwm/ 
-
-# Copy sxhkdrc
-cp ../bspwm/sxhkdrc /root/.config/sxhkd/ 
-
 ## Copy .xinirc
 cp ../bspwm/.xinitrc /root/.xinitrc
+
+
+## Polybar 
+   # Installation   
+dnf -y install --setopt=tsflags=''  polybar
+   # Configuration
+mkdir -p /root/.config/polybar/example
+ll ../polybar/polybarrc 
+cp ../polybar/polybarrc /root/.config/polybar/
+
+## SXHKD
+   # Configuration
+cp ../sxhkd/sxhkdrc /root/.config/sxhkd/ 
+
 
 ## Konsole Configuration
 cp ../konsole/konsolerc /root/.config/
@@ -52,5 +62,4 @@ cp ../konsole/4k.profile /root/.local/share/konsole/
 systemctl enable wpa_supplicant
 systemctl start  wpa_supplicant
 systemctl restart NetworkManager
-
 
