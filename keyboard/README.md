@@ -5,4 +5,4 @@
 - Replaced ESC to CAPS
 
 #### TODO
-- [  ] Swap : to ; 
+- [ ] Swap : to ; 
