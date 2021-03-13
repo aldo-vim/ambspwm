@@ -39,17 +39,29 @@ cp  ../bspwm/bspwmrc /root/.config/bspwm/
 ## Copy .xinirc
 cp ../bspwm/.xinitrc /root/.xinitrc
 
-
-## Polybar 
+#
+# Polybar 
+#
    # Installation   
 dnf -y install --setopt=tsflags=''  polybar
    # Configuration
 mkdir -p /root/.config/polybar/example
 cp ../polybar/config /root/.config/polybar/
+cp ../polybar/launch.sh /root/.config/polybar/
 
+#
 ## SXHKD
+#
    # Configuration
 cp ../sxhkd/sxhkdrc /root/.config/sxhkd/ 
+
+#
+## Keyboard mapping
+#
+if [[ -e  /usr/share/X11/xkb/keycodes/evdev ]]; then
+  mv -f /usr/share/X11/xkb/keycodes/evdev{,.ini} 
+fi
+cp -r ../keyboard/evdev /usr/share/X11/xkb/keycodes/evdev
 
 
 ## Konsole Configuration
