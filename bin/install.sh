@@ -18,6 +18,7 @@
    xorg-x11-font-utils \
    xorg-x11-fonts-100dpi \
    vim \
+   tmux \
    git \
    lxappearance \
    thunar \
