@@ -126,3 +126,10 @@ super + {Left,Down,Up,Right}
 # focus the next/previous desktop in the current monitor
 alt + {i,o}
 	bspc desktop -f {prev,next}.local
+
+### Not sure if this is needed, I might need to refactor this one
+# Move the current node to the next,prev desktop and focus on it
+ctrl + alt + shift + {h,l}
+        bspc node -d {prev,next} -f
+                                                                                                                         129,1         Bot
+
