@@ -58,13 +58,18 @@ cp ../polybar/launch.sh /root/.config/polybar/
 cp ../sxhkd/sxhkdrc /root/.config/sxhkd/ 
 
 #
-## Keyboard mapping
+## Keyboard mapping: Refactor, introduce proper conditional logic
 #
 if [[ -e  /usr/share/X11/xkb/keycodes/evdev ]]; then
   mv -f /usr/share/X11/xkb/keycodes/evdev{,.ini} 
 fi
 cp -r ../keyboard/evdev /usr/share/X11/xkb/keycodes/evdev
 
+/usr/share/X11/xkb/symbols/us
+if [[ -e /usr/share/X11/xkb/symbols/us ]]; then
+  mv -f /usr/share/X11/xkb/symbols/us{,.ini} 
+fi
+cp -r ../keyboard/us /usr/share/X11/xkb/symbols/us
 
 ## Konsole Configuration
 cp ../konsole/konsolerc /root/.config/
