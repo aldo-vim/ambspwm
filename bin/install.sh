@@ -20,6 +20,7 @@
    vim \
    tmux \
    git \
+   rofi \
    lxappearance \
    thunar \
    konsole \
