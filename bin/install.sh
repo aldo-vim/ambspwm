@@ -65,7 +65,6 @@ if [[ -e  /usr/share/X11/xkb/keycodes/evdev ]]; then
 fi
 cp -r ../keyboard/evdev /usr/share/X11/xkb/keycodes/evdev
 
-/usr/share/X11/xkb/symbols/us
 if [[ -e /usr/share/X11/xkb/symbols/us ]]; then
   mv -f /usr/share/X11/xkb/symbols/us{,.ini} 
 fi
