@@ -21,6 +21,8 @@
    tmux \
    git \
    rofi \
+   neofetch \
+   firefox \
    lxappearance \
    thunar \
    konsole \
