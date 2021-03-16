@@ -82,3 +82,9 @@ systemctl enable wpa_supplicant
 systemctl start  wpa_supplicant
 systemctl restart NetworkManager
 
+#
+# Google Chrome
+#
+
+dnf -y install fedora-workstation-repositories
+dnf -y install google-chrome-stable
