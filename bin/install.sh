@@ -77,15 +77,18 @@ cp ../konsole/konsolerc /root/.config/
 mkdir -p /root/.local/share/konsole/
 cp ../konsole/4k.profile /root/.local/share/konsole/
 
-## Wifi Configuration 
+#
+# Google Chrome
+#
+echo -e  "\n#### >>> Installing Googlge Chrome\n"
+dnf -y install fedora-workstation-repositories
+dnf config-manager --set-enabled google-chrome
+dnf -y install google-chrome-stable
+#
+#  Wifi Configuration 
+#  Leave this for last
+#
 systemctl enable wpa_supplicant
 systemctl start  wpa_supplicant
 systemctl restart NetworkManager
 
-#
-# Google Chrome
-#
-echo "\n#### >>> Installing Googlge Chrome\n"
-dnf -y install fedora-workstation-repositories
-dnf config-manager --set-enabled google-chrome
-dnf -y install google-chrome-stable
