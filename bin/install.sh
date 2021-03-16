@@ -85,6 +85,7 @@ systemctl restart NetworkManager
 #
 # Google Chrome
 #
-
+echo "\n#### >>> Installing Googlge Chrome\n"
 dnf -y install fedora-workstation-repositories
+dnf config-manager --set-enabled google-chrome
 dnf -y install google-chrome-stable
