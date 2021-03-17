@@ -15,7 +15,7 @@ dnf install google-chrome-stable
 /opt/google/chrome/google-chrome
 ```
 replace: 
-``
+```
 exec -a "$0" "$HERE/chrome" "$@"
 ```
 with 
