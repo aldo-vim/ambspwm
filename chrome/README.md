@@ -8,3 +8,18 @@ dnf install fedora-workstation-repositories
 ```
 dnf install google-chrome-stable
 ```
+
+### Running it as root
+#### Change the file 
+```
+/opt/google/chrome/google-chrome
+```
+replace: 
+``
+exec -a "$0" "$HERE/chrome" "$@"
+```
+with 
+```
+exec -a "$0" "$HERE/chrome" "$@"--user-data-dir --test-type --no-sandbox
+
+```

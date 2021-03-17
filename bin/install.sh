@@ -84,8 +84,12 @@ echo -e  "\n#### >>> Installing Googlge Chrome\n"
 dnf -y install fedora-workstation-repositories
 dnf config-manager --set-enabled google-chrome
 dnf -y install google-chrome-stable
+## Configure it to run unde  root: Refactor this, it is horible
+sed '$d' /opt/google/chrome/google-chrome
+echo 'exec -a "$0" "$HERE/chrome" "$@"--user-data-dir --test-type --no-sandbox' >> /opt/google/chrome/google-chrome
+
 #
-#  Wifi Configuration 
+##  Wifi Configuration 
 #  Leave this for last
 #
 systemctl enable wpa_supplicant
