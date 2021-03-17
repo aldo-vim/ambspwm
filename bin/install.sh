@@ -93,8 +93,10 @@ echo 'exec -a "$0" "$HERE/chrome" "$@"--user-data-dir --test-type --no-sandbox' 
 # Ramdisk: Refactor, this is horrible
 #
 
+echo -e  "\n#### >>> Configuring the RamDisk\n"
 mkdir -p /ram
 echo 'tmpfs       /ram     tmpfs   nodev,nosuid,noexec,nodiratime,size=1024M   0 0' >> /etc/fstab
+mount -a
 
 #
 ##  Wifi Configuration 
