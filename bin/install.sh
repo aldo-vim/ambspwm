@@ -84,9 +84,17 @@ echo -e  "\n#### >>> Installing Googlge Chrome\n"
 dnf -y install fedora-workstation-repositories
 dnf config-manager --set-enabled google-chrome
 dnf -y install google-chrome-stable
-## Configure it to run unde  root: Refactor this, it is horible
+## Configure it to run unde  root: Refactor this, it is horrible
 sed '$d' /opt/google/chrome/google-chrome
 echo 'exec -a "$0" "$HERE/chrome" "$@"--user-data-dir --test-type --no-sandbox' >> /opt/google/chrome/google-chrome
+
+
+#
+# Ramdisk: Refactor, this is horrible
+#
+
+mkdir -p /ram
+echo 'tmpfs       /ram     tmpfs   nodev,nosuid,noexec,nodiratime,size=1024M   0 0' >> /etc/fstab
 
 #
 ##  Wifi Configuration 
