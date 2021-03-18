@@ -131,5 +131,12 @@ alt + {i,o}
 # Move the current node to the next,prev desktop and focus on it
 ctrl + alt + shift + {h,l}
         bspc node -d {prev,next} -f
-                                                                                                                         129,1         Bot
 
+#
+# xvkbd
+# Vim
+#
+
+# Save and exit the current buffer
+ctrl + a
+        xvkbd -xsendevent -text ":wq!\r"

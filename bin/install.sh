@@ -20,6 +20,7 @@
    vim \
    tmux \
    git \
+   xvkbd \
    rofi \
    neofetch \
    firefox \
