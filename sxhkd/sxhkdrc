@@ -140,3 +140,7 @@ ctrl + alt + shift + {h,l}
 # Save and exit the current buffer
 ctrl + a
         xvkbd -xsendevent -text ":wq!\r"
+
+# Quit the current buffer
+ctrl + q
+        xvkbd -xsendevent -text ":q!\r"

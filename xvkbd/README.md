@@ -11,3 +11,4 @@ dnf -y install xvkbd
 
 ### Remapping
 - Ctr + a  -> :wq!Enter ( Save the current buffer and exit )
+- Ctr + q  -> :q!Enter  ( Quit the current buffer )
