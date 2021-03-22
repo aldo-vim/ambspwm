@@ -134,7 +134,7 @@ ctrl + alt + shift + {h,l}
 
 #
 # xvkbd
-# Vim
+# Vim key binding
 #
 
 # Save and exit the current buffer
@@ -144,3 +144,10 @@ ctrl + a
 # Quit the current buffer
 ctrl + q
         xvkbd -xsendevent -text ":q!\r"
+
+
+
+# Tmux  key binding
+# alt + s -> Ctrl + b ( tmux prefix )
+alt + s 
+        xvkbd -xsendevent -text "\Cb"
