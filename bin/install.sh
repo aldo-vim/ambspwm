@@ -79,6 +79,17 @@ mkdir -p /root/.local/share/konsole/
 cp ../konsole/4k.profile /root/.local/share/konsole/
 
 #
+# Tmux
+#
+echo -e  "\n#### >>> Configuring Tmux\n"
+cp -r ../tmux/tmux.conf /root/.tmux.conf
+
+#
+# TODO: vim
+#
+
+
+#
 # Google Chrome
 #
 echo -e  "\n#### >>> Installing Googlge Chrome\n"

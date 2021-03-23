@@ -151,3 +151,17 @@ ctrl + q
 # alt + s -> Ctrl + b ( tmux prefix )
 alt + s 
         xvkbd -xsendevent -text "\Cb"
+
+
+#
+# xvkbd
+# Vim + Tmux key binding
+#
+
+# alt + h,j,k,l -> Escape + Ctrl + h,j,k,l ( use the default vim-tumux-navigator but add Escape   )
+alt + {h,j,k,l}
+        xvkbd -xsendevent -text {"\e\Ch","\e\Cj","\e\Ck","\e\Cl"}
+
+# Tmux vim copy mode
+alt + {y,p}
+        xvkbd -xsendevent -text {"\Cb[","\Cb]"}
