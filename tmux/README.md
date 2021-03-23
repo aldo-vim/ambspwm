@@ -8,7 +8,7 @@
 	- [x] escape-time 0  
 	- [x] buffer history 5k line  
 	- [x] display 4s  
--[x] vi mode  
+- [x] vi mode  
  
 
 ## Configuration
