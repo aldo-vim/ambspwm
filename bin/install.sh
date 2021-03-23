@@ -82,7 +82,7 @@ cp ../konsole/4k.profile /root/.local/share/konsole/
 # Tmux
 #
 echo -e  "\n#### >>> Configuring Tmux\n"
-cp -r ../tmux/tmux.conf /root/.tmux.conf
+cp -r ../tmux/.tmux.conf /root/.tmux.conf
 
 #
 # TODO: vim
