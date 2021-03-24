@@ -79,6 +79,13 @@ mkdir -p /root/.local/share/konsole/
 cp ../konsole/4k.profile /root/.local/share/konsole/
 
 #
+# Vim
+#
+echo -e  "\n#### >>> Configuring Vim\n"
+cp -r ../vim/.vimrc ~/.vimrc
+
+
+#
 # Tmux
 #
 echo -e  "\n#### >>> Configuring Tmux\n"
