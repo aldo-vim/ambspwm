@@ -1,16 +1,16 @@
 ## vim initial configuration
 
-## This is my initial vimrc file, to change this to git repo
+## This is my initial vimrc file, to change this to git bare
 
-## Vundle path:
+### Vundle path:
 ```
 	~/.vim/bundle/
 ```
 
-## Customizations
+### Customizations
 - [x] Install vundle
 - [x] vim-tmux-navigator
 - [x] Disable automatic comment insertion
  
-## TODO
+### TODO
 - [ ] Use git bare for .dot files
