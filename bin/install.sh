@@ -29,6 +29,7 @@
    konsole \
    bspwm \
    sxhkd \
+   nodejs \
    wpa_supplicant 
 
 ## Font configuration 
@@ -92,7 +93,7 @@ echo -e  "\n#### >>> Configuring Tmux\n"
 cp -r ../tmux/.tmux.conf /root/.tmux.conf
 
 #
-# TODO: vim
+# TODO ssh
 #
 
 

@@ -44,6 +44,10 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 
+""  COC
+Plugin 'neoclide/coc.nvim'
+
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 "" To ignore plugin indent changes, instead use:
@@ -94,3 +98,8 @@ filetype plugin indent on    " required
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 
+""""
+""" Coc.vim
+""""
+
+colorscheme murphy

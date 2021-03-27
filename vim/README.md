@@ -11,6 +11,9 @@
 - [x] Install vundle
 - [x] vim-tmux-navigator
 - [x] Disable automatic comment insertion
+- [x] Added coc.vim support
+	- [x] nodejs was added as a requirement
  
 ### TODO
+- 
 - [ ] Use git bare for .dot files

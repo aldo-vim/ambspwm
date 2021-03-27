@@ -19,3 +19,12 @@ bspc desktop -f {prev,next}.local
    ```
 
 ### THis file need to be completelly refactored
+
+
+## TODO
+- [x] Add git support ( configure 
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```	
+
