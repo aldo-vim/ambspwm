@@ -87,6 +87,12 @@ cp -r ../vim/.vimrc ~/.vimrc
 
 
 #
+#  Coc extensions installatinon
+#
+vim -c 'CocInstall -sync coc-pyright coc-snippets|q'
+
+
+#
 # Tmux
 #
 echo -e  "\n#### >>> Configuring Tmux\n"
