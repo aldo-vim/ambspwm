@@ -26,7 +26,7 @@ vim -c 'CocInstall -sync coc-pyright coc-snippets|qa'
  
 ### TODO
 - 
-- [] Use git bare for .dot files
-- [] Write a script to isntall vundle and all the plugins instead of having it as .vimrc code
-	- [] shell script: e.g. vim -c 'CocInstall coc-pyright coc-snippets|q'
+- [ ] Use git bare for .dot files
+- [ ] Write a script to isntall vundle and all the plugins instead of having it as .vimrc code
+	- [ ] shell script: e.g. vim -c 'CocInstall coc-pyright coc-snippets|q'
 
