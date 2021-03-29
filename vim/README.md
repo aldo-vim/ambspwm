@@ -17,11 +17,11 @@
 	- [x] .vimrc configuration
 	- [x] bash script to install it ( vim -c )
 	- [x] extensions (I'm using a shell script)
+		- [x] coc-pyright
+		- [x] coc-snippets
 ```
 vim -c 'CocInstall -sync coc-pyright coc-snippets|qa'
 ```
-		- [x] coc-pyright
-		- [x] coc-snippets
 
  
 ### TODO
