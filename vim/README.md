@@ -19,8 +19,18 @@
 	- [x] extensions (I'm using a shell script)
 		- [x] coc-pyright
 		- [x] coc-snippets
-```
+```viml
 vim -c 'CocInstall -sync coc-pyright coc-snippets|qa'
+```
+
+### Snippets
+This section describes the process of installing the snippets for coc.vim
+- Used snippets: 
+	- [honza/vim-snippets](https://github.com/honza/vim-snippets)
+- coc.vim plugin [coc-snippets](https://github.com/neoclide/coc-snippets)
+- Snippets location:
+```bash
+~/.vim/bundle/vim-snippets/
 ```
 
  

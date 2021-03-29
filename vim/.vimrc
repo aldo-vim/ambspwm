@@ -49,6 +49,10 @@ Plugin 'mhartington/oceanic-next'
 ""  COC & Coc Extensions
 Plugin 'neoclide/coc.nvim'
 
+"" Snippets
+Plugin 'honza/vim-snippets'
+
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
