@@ -19,6 +19,7 @@
 	- [x] extensions (I'm using a shell script)
 		- [x] coc-pyright
 		- [x] coc-snippets
+	- [x] Update the .vimrc to add support for coc-snippets (use tab)
 ```viml
 vim -c 'CocInstall -sync coc-pyright coc-snippets|qa'
 ```
