@@ -11,6 +11,7 @@ cd aldovim_dev_env/hardware_install/
 - [x] Xort
 - [x] bspwm
 - [x] vim 
+- [x] coc.vim
 - [x] tmux 
 - [x] git 
 - [x] xvkbd 

@@ -13,12 +13,15 @@
 - [x] Disable automatic comment insertion
 - [x] Added coc.vim support
 	- [x] nodejs was added as a requirement
-- [] Coc.vim
-	- [] .vimrc configuration
-	- [] bash script to install it ( vim -c )
-	- [] extensions (I'm using a shell script)
-		- [] coc-pyright
-		- [] coc-snippets
+- [x] Coc.vim
+	- [x] .vimrc configuration
+	- [x] bash script to install it ( vim -c )
+	- [x] extensions (I'm using a shell script)
+```
+vim -c 'CocInstall -sync coc-pyright coc-snippets|qa'
+```
+		- [x] coc-pyright
+		- [x] coc-snippets
 
  
 ### TODO

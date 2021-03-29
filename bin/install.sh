@@ -23,13 +23,13 @@
    xvkbd \
    rofi \
    neofetch \
+   nodejs \
    firefox \
    lxappearance \
    thunar \
    konsole \
    bspwm \
    sxhkd \
-   nodejs \
    wpa_supplicant 
 
 ## Font configuration 
@@ -89,7 +89,9 @@ cp -r ../vim/.vimrc ~/.vimrc
 #
 #  Coc extensions installatinon
 #
-vim -c 'CocInstall -sync coc-pyright coc-snippets|q'
+echo -e  "\n#### >>> Configuring Coc\n"
+#vim -c 'PluginInstall|q'
+vim -c 'CocInstall -sync coc-pyright coc-snippets|qa'
 
 
 #
