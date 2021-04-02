@@ -52,6 +52,10 @@ Plugin 'neoclide/coc.nvim'
 "" Snippets
 Plugin 'honza/vim-snippets'
 
+"" Comments
+filetype plugin on
+Plugin 'preservim/nerdcommenter'
+
 
 
 call vundle#end()            " required

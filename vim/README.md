@@ -20,6 +20,8 @@
 		- [x] coc-pyright
 		- [x] coc-snippets
 	- [x] Update the .vimrc to add support for coc-snippets (use tab)
+- [x] NerdCommenter ``` learder cc, learder c space``` 
+
 ```viml
 vim -c 'CocInstall -sync coc-pyright coc-snippets|qa'
 ```
@@ -32,6 +34,11 @@ This section describes the process of installing the snippets for coc.vim
 - Snippets location:
 ```bash
 ~/.vim/bundle/vim-snippets/
+```
+
+### NerdCommenter
+```
+:h nerdcom<Tab>
 ```
 
  
